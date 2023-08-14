@@ -6,14 +6,15 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "node ./src/index.js",
-    "start-dev": "nodemon ./src/index.js"
+    "start-dev": "nodemon --experimental-modules ./src/index.js"
   },
   "author": "Alefros",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.20.2",
     "express": "^4.18.2",
-    "renovate": "^36.42.4"
+    "renovate": "^36.42.4",
+    "sqlite3": "^5.1.6"
   },
   "devDependencies": {
     "nodemon": "^3.0.1"
