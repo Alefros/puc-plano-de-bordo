@@ -21,7 +21,7 @@ import static br.com.alura.aluraviagens.ui.activity.PacoteViagemConstantes.CHAVE
 
 public class ResumoDoPacoteActivity extends AppCompatActivity {
 
-    public static final String TITULO_APPBAR = "Resumo do Pacote";
+    public static final String TITULO_APPBAR = String.valueOf(R.string.resume_trip);
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

@@ -23,4 +23,6 @@
     <string name="package_image">Imagem do pacote</string>
     <string name="trip_start">Início:</string>
     <string name="trip_end">Fim:</string>
+    <string name="resume_trip">Resumo da viagem</string>
+
 </resources>
