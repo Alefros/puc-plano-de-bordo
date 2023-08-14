@@ -171,7 +171,8 @@ gradle-wrapper.jar
 local.properties
 .idea/workspace.xml
 .DS_Store
-/build
+./build
+
 
 # Crashlytics configuations
 com_crashlytics_export_strings.xml
