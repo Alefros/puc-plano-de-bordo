@@ -131,3 +131,50 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+
+# Android
+/.gradle
+/local.properties
+/.idea/caches
+/.idea/libraries
+/.idea/modules.xml
+/.idea/workspace.xml
+/.idea/navEditor.xml
+/.idea/assetWizardSettings.xml
+/.idea/dictionaries
+/.idea/misc.xml
+/.idea/vcs.xml
+*.iml
+/.DS_Store
+/build
+/captures
+.externalNativeBuild
+/*.user
+
+# Generated files
+gradle-wrapper.jar
+
+# Dependencies
+/.idea/codeStyles
+.idea
+.gradle
+*.iws
+*.iml
+*.ipr
+
+# Gradle files
+.gradle
+gradle-wrapper.jar
+
+# User-specific files
+.gradle/
+local.properties
+.idea/workspace.xml
+.DS_Store
+/build
+
+# Crashlytics configuations
+com_crashlytics_export_strings.xml
+
+# Signing files
+/app/my-release-key.keystore
